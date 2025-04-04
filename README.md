@@ -1,73 +1,68 @@
-# PLP-Hackathon-1
+# Portfolio Website
 
-📌 PLP Hackathon 1: Personal Portfolio Website
-(Replace this with an actual screenshot of your site)
+## 🚀 Live Demo
+You can view my live portfolio website [here](https://fancy-bonbon-efe075.netlify.app/).
 
-🚀 Live Demo
-🔗 View Portfolio (Replace with your actual Netlify or GitHub Pages link)
+## 📸 Screenshot
+![Portfolio Preview](assets/screenshot.png)
 
-📖 About This Project
-This is a personal portfolio website created for the PLP Hackathon 1. It showcases my skills, projects, education, and includes a contact form for easy communication.
+## 📝 About
 
-🎨 Features
-✔️ Modern and responsive UI
-✔️ Smooth scrolling animations
-✔️ Downloadable CV
-✔️ Interactive contact form
-✔️ Hosted on Netlify
+Hi! I'm **Cheruiyot Bethwel**, a passionate web developer currently studying medicine at the University of Nairobi. I specialize in creating modern, responsive websites that provide an exceptional user experience. I’m constantly learning and exploring new technologies to enhance my skills in web development.
 
-🛠️ Technologies Used
-HTML5 – Structure
+## 🎓 Education
 
-CSS3 – Styling & animations
+- **Bachelor of Medicine and Bachelor of Surgery**  
+  University of Nairobi, 2018–2025
 
-JavaScript – Form validation & interactivity
+## 🛠️ Technologies Used
 
-Netlify – Deployment
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+- Netlify
 
-📂 Project Structure
-bash
-Copy
-Edit
-/portfolio-website
-│── index.html        # Main HTML file
-│── styles.css        # Styling file
-│── script.js         # JavaScript for interactions
-│── assets/           # Images, icons, and other assets
-│── cv.pdf            # Downloadable CV
-│── README.md         # Project documentation
-🚀 How to Run Locally
-Clone the repository:
+## 💡 Projects
 
-sh
-Copy
-Edit
-git clone https://github.com/cbethwel/PLP-Hackathon-1.git
-Navigate into the project folder:
+- **Portfolio Website:**  
+  A fully responsive portfolio site showcasing my development skills and passion for creating interactive web experiences.  
+  [View Project](https://fancy-bonbon-efe075.netlify.app/)  
 
-sh
-Copy
-Edit
-cd PLP-Hackathon-1
-Open index.html in a browser.
+- **Projects Coming Soon**  
+  I am currently working on various projects to showcase here. If you would like to request a preview of my work or learn more about my progress, feel free to reach out!  
+  [Request Project Preview](mailto:cheruiyotbethwel11095@gmail.com?subject=Request%20Project%20Preview&body=Hello%2C%0D%0A%0D%0AI%20would%20like%20to%20request%20a%20preview%20of%20your%20projects%20and%20learn%20more%20about%20your%20work.%20Please%20let%20me%20know%20how%20I%20can%20view%20or%20explore%20your%20projects.%0D%0A%0D%0AThank%20you!)
 
-🌍 Deployment
-This project is deployed using Netlify. You can also deploy it on GitHub Pages:
+## 📬 Contact
 
-Push changes to GitHub.
+Feel free to reach out to me if you have any questions or opportunities to collaborate!
 
-Go to Settings → Pages and enable GitHub Pages.
+- 📧 **Email:** [cheruiyotbethwel11095@gmail.com](mailto:cheruiyotbethwel11095@gmail.com)
+- 🔗 **LinkedIn:** [Request LinkedIn Profile](mailto:cheruiyotbethwel11095@gmail.com?subject=Request%20LinkedIn%20Profile&body=Hello%2C%0D%0A%0D%0AI'm%20interested%20in%20connecting%20with%20you%20on%20LinkedIn.%20Please%20let%20me%20know%20if%20you%20can%20share%20your%20LinkedIn%20profile%20with%20me.%0D%0A%0D%0AThank%20you!)
 
-Access your site at:
+## 💡 Future Plans
 
-arduino
-Copy
-Edit
-https://your-username.github.io/PLP-Hackathon-1/
-📬 Contact
-For any inquiries, reach out via:
-📧 Email: your.email@example.com
-🔗 LinkedIn: linkedin.com/in/yourname
+- Add more projects as I build and enhance my skills.
+- Continuously update this portfolio to reflect my growth as a web developer and future professional.
 
-⭐ Contributions
-Feel free to fork, suggest improvements, or submit pull requests! 😊
+---
+
+### How To Run The Project Locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/cbethwel/PLP-Hackathon-1.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd PLP-Hackathon-1
+   ```
+
+3. Open the `index.html` file in your browser to view the portfolio locally.
+
+---
+
+### 👤 Created by:  
+Cheruiyot Bethwel
