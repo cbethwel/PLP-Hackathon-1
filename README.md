@@ -1,7 +1,7 @@
 # Portfolio Website
 
 ## 🚀 Live Demo
-You can view my live portfolio website [here](https://fancy-bonbon-efe075.netlify.app/).
+You can view my live portfolio website [here](https://cbethwel.netlify.app/).
 
 ## 📸 Screenshot
 ![Portfolio Preview](assets/screenshot.png)
