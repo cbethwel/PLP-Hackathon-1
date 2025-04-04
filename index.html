@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Cheruiyot Bethwel - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
@@ -16,17 +17,20 @@
             text-align: center;
             overflow-x: hidden;
         }
+
         header {
             background: #27293d;
             padding: 2rem;
             text-align: center;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         }
+
         header h1 {
             margin: 0;
             font-size: 2.5rem;
             font-weight: bold;
         }
+
         nav ul {
             list-style: none;
             padding: 0;
@@ -34,18 +38,22 @@
             justify-content: center;
             gap: 20px;
         }
+
         nav ul li {
             display: inline;
         }
+
         nav ul li a {
             color: #ffcc00;
             text-decoration: none;
             font-weight: bold;
             transition: color 0.3s;
         }
+
         nav ul li a:hover {
             color: #e6b800;
         }
+
         .hero {
             display: flex;
             flex-direction: column;
@@ -53,10 +61,12 @@
             padding: 50px 20px;
             animation: fadeIn 1.5s ease-in-out;
         }
+
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(-20px); }
             to { opacity: 1; transform: translateY(0); }
         }
+
         .hero img {
             width: 150px;
             height: 150px;
@@ -65,17 +75,21 @@
             margin-bottom: 20px;
             transition: transform 0.3s;
         }
+
         .hero img:hover {
             transform: scale(1.1);
         }
+
         .hero h2 {
             margin: 0;
             font-size: 2rem;
         }
+
         .hero p {
             max-width: 600px;
             margin-top: 10px;
         }
+
         section {
             background: #27293d;
             margin: 20px auto;
@@ -85,16 +99,20 @@
             box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
             transition: transform 0.3s;
         }
+
         section:hover {
             transform: scale(1.02);
         }
+
         a {
             color: #ffcc00;
             transition: color 0.3s;
         }
+
         a:hover {
             color: #e6b800;
         }
+
         button {
             padding: 10px 20px;
             background: #ffcc00;
@@ -105,22 +123,15 @@
             font-weight: bold;
             transition: background 0.3s;
         }
+
         button:hover {
             background: #e6b800;
         }
     </style>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            document.querySelector("form").addEventListener("submit", function(event) {
-                event.preventDefault();
-                alert("Message sent successfully!");
-            });
-        });
-    </script>
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
+        <h1>Cheruiyot Bethwel - Portfolio</h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -130,46 +141,34 @@
             </ul>
         </nav>
     </header>
-    
+
     <section class="hero">
-        <img src="profile.jpg" alt="Profile Picture">
-        <h2>John Doe</h2>
-        <p>A passionate web developer with expertise in modern web technologies.</p>
+        <img src="https://images.pexels.com/photos/11909034/pexels-photo-11909034.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Profile Picture">
+        <h2>Cheruiyot Bethwel</h2>
+        <p>A medical student with a passion for tech and web development.</p>
     </section>
     
+
     <section id="about">
         <h2>About Me</h2>
-        <p>I love creating beautiful and functional web experiences, focusing on modern design principles and user-friendly interactions.</p>
+        <p>I am passionate about combining technology with healthcare, aiming to innovate in digital health solutions. I am also a web enthusiast with a keen interest in modern web technologies.</p>
     </section>
-    
+
     <section id="education">
         <h2>Education</h2>
-        <p>I hold a degree in Computer Science from XYZ University.</p>
-        <a href="cv.pdf" download>Download My CV</a>
+        <p>I am currently pursuing a Bachelor of Medicine and Bachelor of Surgery at the University of Nairobi (2018-2025).</p>
+        <a href="mailto:cheruiyotbethwel11095@gmail.com?subject=Request%20for%20CV&body=Hello,%0A%0AI%20would%20like%20to%20request%20a%20copy%20of%20your%20CV.%0A%0AThank%20you!" class="button">Request My CV</a>
     </section>
     
+
     <section id="projects">
         <h2>Projects</h2>
-        <ul>
-            <li><strong>Portfolio Website:</strong> A fully responsive portfolio site showcasing my skills. <a href="#">View Project</a></li>
-            <li><strong>To-Do App:</strong> A task management web app using JavaScript. <a href="#">View Project</a></li>
-        </ul>
+        <p>Coming soon! Feel free to <a href="mailto:cheruiyotbethwel11095@gmail.com?subject=Project Previews Request&body=I would love to see the project previews.">request a preview</a> of my upcoming projects!</p>
     </section>
-    
+
     <section id="contact">
         <h2>Contact Me</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Send</button>
-        </form>
+        <p>You can reach out to me directly at <a href="mailto:cheruiyotbethwel11095@gmail.com?subject=Inquiry&body=I would like to connect with you.">cheruiyotbethwel11095@gmail.com</a></p>
     </section>
 </body>
 </html>
